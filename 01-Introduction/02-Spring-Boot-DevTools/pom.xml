@@ -35,6 +35,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+<!-- The below dependency  spring-boot-devtools is needed for auto restarting of server when any changes are made and saved. -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
