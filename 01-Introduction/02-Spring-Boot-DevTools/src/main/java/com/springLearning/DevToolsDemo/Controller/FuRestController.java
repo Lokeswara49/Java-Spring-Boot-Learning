@@ -14,4 +14,24 @@ public class FuRestController {
     public String firstAPI(){
         return "My First API";
     }
+    @GetMapping("/api2")
+    public String firstAPI2(){
+        return "My 2nd API";
+    }
+    @GetMapping("/api3")
+    public String firstAPI3(){
+        return "My 5nd API";
+    }
+    @GetMapping("/api4")
+    public String firstAPI4(){
+        return "My 4nd API";
+    }
+    @GetMapping("/api5")
+    public String firstAPI5(){
+        return "My 9nd API";
+    }
+    @GetMapping("/api10")
+    public String firstAPI10(){
+        return "My 10nd API";
+    }
 }
